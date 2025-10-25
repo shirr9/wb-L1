@@ -5,6 +5,7 @@ import (
 	"sync/atomic"
 )
 
+// goroutine exit by condition
 func main() {
 	var done atomic.Bool
 	c := make(chan int)
